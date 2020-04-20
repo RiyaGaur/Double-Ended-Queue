@@ -1,9 +1,9 @@
-public class Doublendedqueueusingarray {
+public class Doubleendedqueueusingarray {
     int data;
     int arr[];
     int front;
     int rear;
-    public Doublendedqueueusingarray(int size){
+    public Doubleendedqueueusingarray(int size){
         front = -1;
         rear=-1;
         arr = new int[size];
@@ -75,7 +75,7 @@ public class Doublendedqueueusingarray {
     }
 
     public static void main(String[] args) {
-        Doublendedqueueusingarray obj = new Doublendedqueueusingarray(5);
+        Doubleendedqueueusingarray obj = new Doubleendedqueueusingarray(5);
         obj.enqueueFront(10);
         obj.display();
         System.out.println("Front = "+obj.front);
